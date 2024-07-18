@@ -1,0 +1,19 @@
+<!-- 8) Ek HTML element (jaise div ya p) ko select karo aur uske innerHTML ko update karke koi bhi text display karo. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv">Text</div>
+
+    <script>
+       let div = document.querySelector('#myDiv'); // select the div element
+       div.innerHTML = 'Hello,World'; // Updating it's InnerHTML
+    </script>
+
+</body>
+</html>
